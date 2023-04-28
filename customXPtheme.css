@@ -1,0 +1,57 @@
+@import url("https://saltssaumure.github.io/xp-discord-theme/xp.min.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+:root
+{
+    --background-image: url(https://oceanblade95.github.io/Images/boat.png);  /* Background image. Values: any image link encased in url(). */
+    --bsod-color: #000;  /* BSOD background colour. Values: any valid keyword/RGBA/hex etc. colour. */
+}
+
+.theme-dark {
+    --xp-bg-color: #000;
+    --xp-bg-bright-color: #234;
+    --xp-bg-tint-color: #222;
+    --xp-bg-shade-color: #111;
+    --xp-txt-color: #FFF;
+    --xp-border-color: #1665CA;
+    --xp-set-color: #FFFFFFB3;
+    --xp-hover-color: #123;
+    --xp-zing-color: #A50;
+
+    /* Background Color */
+    --background-primary: #000;
+    
+}
+.theme-light {
+    --xp-bg-color: #d0e7fe;
+    --xp-bg-bright-color: #F0EFED;
+    --xp-bg-tint-color: #EBE8D7;
+    --xp-bg-shade-color: #808080;
+    --xp-txt-color: #000;
+    --xp-border-color: #000;
+    --xp-set-color: #000000B3;
+    --xp-hover-color: #D3D3D3;
+    --xp-zing-color: #FFA500;
+/* Background Color */
+     --background-primary: #d0e7fe;
+
+/* RadialStatus Config */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
