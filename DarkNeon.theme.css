@@ -1,16 +1,3 @@
-/**
- * @name Dark Neon
- * @author Bates#7075
- * @version 2.0.0
- * @source https://gitlab.com/CommandCrafterHD/bates-discord-theme
- * @website https://commandcrafterhd.gitlab.io/bates-discord-theme/
- * @donate https://www.paypal.com/paypalme/floriancegledi
- * @patreon https://patreon.com/bates
- * @description A dark theme with bright neon-y colors, now with more options!
- * @authorId 137259132305539072
- * @invite 6qd3SkP6Ch
-*/
-
 @import url('https://commandcrafterhd.github.io/DiscordDarkNeon/mainRewrite.css');
 /* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
 
@@ -19,7 +6,7 @@
 
 /* CUSTOMIZE COLORS IN HERE! */
 :root {
-  --rgb-highlight: 4, 217, 255; /* The main highlight color */
+  --rgb-highlight: 255, 215, 0; /* The main highlight color */
   --rgb-background: 0, 0, 0; /* The main background color */
   --rgb-text: 197, 200, 198; /* The main text color */
   --rgb-close-button: 212, 18, 39; /* The main "close this" or "deny" color */
